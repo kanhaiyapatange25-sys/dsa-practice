@@ -1,23 +1,34 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int main() {
-    int age;
-    cout <<"enter your age" <<"\n";
-    cin >> age;
-    if(age<18){
-        cout <<"not eligible for job"<<"\n";
-    }
-    else if(age<55){
-        cout <<"eligible for job"<<"\n";
-    }
-    else if(age<=57){
-        cout <<"eligible for job , but retirement soon"<<"\n";
-    }
-    else {
-    cout <<"retirement time"<<"\n";
-    }
-
+int main()
+ {
+    int day;
+    cin >> day;
+switch(day){
+   case 1 : 
+   cout <<"monday"<<"\n";
+   break;
+   case 2 :
+   cout <<"tuesday"<<"\n";
+   break;
+   case 3 :
+   cout <<"wednesday"<<"\n";
+   break;
+   case 4 :
+   cout <<"thursday"<<"\n";
+   break;
+   case 5 :
+   cout <<"friday"<<"\n";
+   break;
+   case 6 :
+   cout <<"saturday"<<"\n";
+   break;
+   case 7 :
+   cout <<"sunday"<<"\n";
+   break;
+   default :
+   cout <<"invalid"<<"\n";
+}
     return 0;
 }
-
