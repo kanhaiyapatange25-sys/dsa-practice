@@ -6,7 +6,7 @@ void pattern3(int n)
     {
         for(int j=0;j<=i;j++)
         {
-            cout <<" "<<j+1;
+            cout <<" "<<i+1;
         }
         cout <<endl;
     }
